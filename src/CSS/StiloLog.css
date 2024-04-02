@@ -1,0 +1,21 @@
+body {
+  background-color: #a0bc72; /* Azul */
+}
+
+
+.tarjeta {
+  display: grid;
+  place-items: center;
+  width: 500px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #0000FF; /* Azul */
+}
+.tarjeta-contenedor {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  justify-content: center;  /* Added line */
+}
