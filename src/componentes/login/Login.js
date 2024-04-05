@@ -1,11 +1,20 @@
-import React from 'react';
+import React from "react";
+import { ChakraProvider, Box } from "@chakra-ui/react";
 
 const Login = () => {
   return (
-    <div className='tarjeta'>
-      <h1>Título del componente secundario</h1>
-      <p>Contenido del componente secundario</p>
-    </div>
+    <ChakraProvider>
+      <div className="tarjeta-contenedor">
+        <Box
+          direction={{ base: "column", sm: "row" }}
+          overflow="hidden"
+          variant="outline"
+          className="tarjeta"
+        >
+          {/* Contenido de la tarjeta */}
+        </Box>
+      </div>
+    </ChakraProvider>
   );
 };
 
