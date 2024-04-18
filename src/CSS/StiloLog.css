@@ -1,5 +1,8 @@
 html body {
-  background-color: #a0bc72;
+  background-image: url('./img/Toluca_03_0.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .tarjeta-contenedor {
